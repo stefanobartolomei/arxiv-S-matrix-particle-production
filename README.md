@@ -1,2 +1,10 @@
-# arxiv-S-matrix-particle-production
-Mathematica codes used for the paper
+# Abstract
+We study particle production induced by gravitational inhomogeneities via the S-matrix formalism of quantum field theory (QFT) in Minkowski spacetime, developing a perturbative QFT approach, based on a linearized gravity and background field methods.
+
+Generalizing previous literature (see [	arXiv:2502.12249](https://arxiv.org/abs/2502.12249)), we consider both massless and massive fields with different spin values, deriving perturbatively Bogoliubov coefficients and kernels functions in terms of flat space QFT techniques. This will demonstrate the equivalence between the Bogoliubov transformation and the Feynman amplitude for the vacuum decay into particle pairs induced by metric perturbation. From symmetries considerations, we establish selection rules for the Bogoliubov coefficients, that heavily simplify the computations. In this formalism, we present a universal formula for computing the number of produced particles, which specialized for stochastic backgrounds of scalar, vector and tensor gravitational perturbations depends on their unequal-frequency power spectrum and the kernel functions.
+
+# Folders
+1. In [spin-J field massless]() and [spin-J field massive]() there are the calculations for Bogoliubov coefficients exploiting the connection with the Feynman amplitude of the vacuum decay process, for both massless and massive fields with various spins. Selection rules are verified. The kernel functions for the gravitational sources, parametrized in Newtonian gauge, are also computed.
+2. In [spin-J field TT]() the kernels functions are computed using the effective field method and the results confirm the previous derivation.
+3. In [Definitions and Properties]() there are the definitions used in calculations for spinors, polarization vectors and tensors, with several consistency checks. Additionally, it contains checks for properties of field theory discussed.
+
